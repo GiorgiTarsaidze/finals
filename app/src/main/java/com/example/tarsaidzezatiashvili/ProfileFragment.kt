@@ -7,7 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
-import com.example.myapplication.starter
+import com.example.tarsaidzezatiashvili.starter
 
 
 class ProfileFragment : Fragment() {
