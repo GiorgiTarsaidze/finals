@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.tarsaidzezatiashvili
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -25,6 +25,14 @@ class starter : AppCompatActivity() {
         setContentView(R.layout.activity_starter)
         init()
         loginListeners()
+        
+        val nextactivity: Button = findViewById(R.id.nextactivity1)
+
+        nextactivity.setOnClickListener{
+            var intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
+        
     }
 
     private fun loginListeners() {
