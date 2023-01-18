@@ -7,7 +7,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
-import com.example.myapplication.starter
+import com.example.tarsaidzezatiashvili.starter
 import org.w3c.dom.Text
 
 class MainActivity : AppCompatActivity() {
